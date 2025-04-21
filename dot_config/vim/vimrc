@@ -1,0 +1,22 @@
+set number relativenumber
+set autoindent
+set ts=2
+set sts=2
+set cindent
+set bs=eol,start,indent
+set laststatus=2
+set shiftwidth=2
+set showmatch
+set smartindent
+set tabstop=2
+set softtabstop=2
+set ruler
+set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
+set paste
+let &t_SI = "\e[3 q"
+let &t_EI = "\e[0 q"
+set ttimeout
+set ttimeoutlen=1
+set ttyfast
+
+syntax on
